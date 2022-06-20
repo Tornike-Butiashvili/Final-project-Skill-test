@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-image: url('https://wallpapercave.com/wp/Bxy1b9V.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-color: black;
+    background-blend-mode: hard-light;
+}
+
+button {
+    border-radius: 30px;
+}
+
+.btn-styling {
+    background-color: rgba(210, 210, 210, 0.7);
+    border: 0px solid yellow;
+}
+
+.icon-styling {
+    z-index: 500;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+}
+
+.card-img {
+    width: 80px;
+}
+
+.bottom-side {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 0px;
+    height: 3px;
+    width: 40px;
+    background-color: #a18100;
+}
+
+.bg-col {
+    background-color: #e9ebf0;
+}
+
+.helper-div-2 h2::first-letter {
+    font-size: 50px;
+}
+
+.down-size-img-stylining {
+    width: 70%;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    height: 350px;
+    background-image: url('https://cdn.wallpapersafari.com/53/31/NblkQC.jpg');
+}
+
+.img-carousel {
+    width: 80px;
+}
+
+.img-sizing {
+    width: 100%;
+    object-fit: cover;
+}
+
+.last-color {
+    background-color: #495468;
+}
+
+footer a {
+    text-decoration: none;
+}
